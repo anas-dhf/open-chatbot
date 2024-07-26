@@ -6,16 +6,22 @@ Before anything, please visit this page: https://ai.google.dev/gemini-api/docs/a
 Get your API Key and insert it into the source.py or mod.py - based on what type of ChatBot you're looking for. 
 You will find a spot where to put it in the first line of code.
 
-Before running the file, please do run the following command in the terminal:
+*Dependencies Install<br />*
+
+***Linux:<br />***
 
 **$ pip install langchain_google_genai**
 
-If there was an error on Linux, make sure you have Python installed.
+If there was an error, make sure you have Python installed.
 If the error persisted write the following command:
 
 **$ pip install langchain_google_genai --break-system-packages**
 
-If you're on windows and encounter a problem of unrecognized command, make sure you include Python in the Environment Variables (Path).
+***Windows:<br />***
+
+Run the run.bat file as Administator.
+
+If you encounter a problem of unrecognized command, make sure you include Python in the Environment Variables (Path).
 
 *Difference between mod & source <br />*
 **Mod:**
