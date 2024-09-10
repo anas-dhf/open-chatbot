@@ -1,5 +1,7 @@
 ## Welcome to Open-Chatbot!
 
+Official Website: sites.google.com/view/medibottn
+
 Concept: A personal Terminal-based Assistant running with Google Gemini. 
 
 Before anything, please visit this page: https://ai.google.dev/gemini-api/docs/api-key
