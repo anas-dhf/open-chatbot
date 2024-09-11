@@ -14,7 +14,7 @@ IF ERRORLEVEL 1 (
 )
 
 REM Install langchain_google_genai library using pip
-pip install langchain_google_genai  2>&1 >nul  ( This line suppresses output )
+pip install langchain_google_genai
 IF ERRORLEVEL 1 (
   ECHO pip failed to install langchain_google_genai. Please try installing it manually.
   EXIT /B 1
